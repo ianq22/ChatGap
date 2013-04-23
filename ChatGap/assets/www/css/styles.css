@@ -1,0 +1,44 @@
+/* ChatGap Style File */
+
+#chatRoomPage,
+#enterNamePage,
+#chatPage {
+	background: url('images/wavegrid.png') !important;
+}
+
+.pageWrapper {
+	margin-top: 35%;
+}
+
+.error {
+	color:#FF0000;
+	border:1px solid;
+	margin:10px 0px;
+	padding:15px 10px 15px 50px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+	background-image:url('images/error.png');
+	background-color:#ffffff;
+}
+
+#chatWindow {
+	height: 350px;
+	width: 100%;
+	border: 1px solid black;
+	background: #ffffff;
+	overflow: auto;
+	text-overflow: clip ellipsis;
+	overflow-y: hidden;
+}
+
+#chatWindow p {
+	margin: 10px 15px;
+}
+
+.userMessage {
+	color: blue;
+}
+
+.otherMessage {
+	color: red;
+}
